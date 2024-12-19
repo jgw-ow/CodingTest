@@ -1,3 +1,2 @@
-def solution(n):
-    return sum(map(int, str(n)))
+solution = lambda n: sum(map(int, str(n)))
     
