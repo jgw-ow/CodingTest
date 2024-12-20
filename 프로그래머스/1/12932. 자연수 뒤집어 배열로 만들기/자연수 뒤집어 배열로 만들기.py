@@ -1,5 +1,1 @@
-def solution(n):
-    result = []
-    for i in str(n):
-        result.append(int(i))
-    return result[::-1]
+solution = lambda n: list(map(int, reversed(str(n))))
