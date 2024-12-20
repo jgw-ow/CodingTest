@@ -1,6 +1,1 @@
-def solution(n):
-    answer = []
-    for i in range(1, n):
-        if n%i == 1:
-            answer.append(i)
-    return answer[0]
+solution = lambda n: [i for i in range(1, n) if n%i == 1][0]
