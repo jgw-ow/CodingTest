@@ -1,0 +1,1 @@
+solution = lambda num: sorted(num)[-1] * sorted(num)[-2]
