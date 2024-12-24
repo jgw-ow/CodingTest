@@ -1,0 +1,1 @@
+solution = lambda n: (n**0.5 + 1)**2 if n**0.5 > 0 and (n**0.5).is_integer() else -1
