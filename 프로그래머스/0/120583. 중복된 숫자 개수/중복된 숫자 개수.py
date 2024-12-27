@@ -1,0 +1,1 @@
+solution = lambda array,n: sum(1 for i in array if n==i)    
