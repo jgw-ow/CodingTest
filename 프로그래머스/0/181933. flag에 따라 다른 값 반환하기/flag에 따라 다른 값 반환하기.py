@@ -1,1 +1,1 @@
-solution = lambda a, b, flag: a+b if flag is True else a-b
+solution = lambda a, b, flag: [a-b, a+b][flag]
