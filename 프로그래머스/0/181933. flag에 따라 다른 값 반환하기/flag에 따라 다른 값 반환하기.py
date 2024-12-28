@@ -1,2 +1,1 @@
-def solution(a, b, flag):
-    return a+b if flag is True else a-b
+solution = lambda a, b, flag: a+b if flag is True else a-b
