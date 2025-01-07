@@ -1,0 +1,1 @@
+solution = lambda slice, n: n // slice if n % slice == 0 else n // slice + 1
