@@ -1,4 +1,1 @@
-def solution(seoul):
-    for x in range(0, len(seoul)):
-        if seoul[x] == 'Kim':
-            return f"김서방은 {x}에 있다"
+solution = lambda seoul: f"김서방은 {seoul.index('Kim')}에 있다"
