@@ -1,0 +1,1 @@
+solution = lambda my_string: sum(int(i) for i in my_string if i in '123456789')
