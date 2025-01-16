@@ -1,6 +1,5 @@
-def solution(arr):
-    if len(arr) == 1:
+def solution(mylist):
+    if len(mylist) == 1:
         return [-1]
-    min_arr = min(arr)
-    arr.remove(min_arr)
-    return arr
+    mylist.remove(min(mylist))
+    return mylist
