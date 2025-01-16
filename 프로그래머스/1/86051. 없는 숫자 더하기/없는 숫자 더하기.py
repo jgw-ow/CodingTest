@@ -1,0 +1,1 @@
+solution = lambda n: sum([i for i in range(0, 10) if str(i) not in str(n)])
