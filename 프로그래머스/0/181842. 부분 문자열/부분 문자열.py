@@ -1,1 +1,1 @@
-solution = lambda str1, str2: 1 if str1 in str2 else 0
+solution = lambda str1, str2: int(str1 in str2)
