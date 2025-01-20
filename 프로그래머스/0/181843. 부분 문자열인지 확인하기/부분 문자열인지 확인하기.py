@@ -1,0 +1,1 @@
+solution = lambda my_string, target: int(target in my_string)
