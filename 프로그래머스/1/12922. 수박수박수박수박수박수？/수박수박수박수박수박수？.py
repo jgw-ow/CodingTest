@@ -1,0 +1,1 @@
+solution = lambda n: n//2 * "수박" if n%2==0 else n//2 * "수박" + "수"
