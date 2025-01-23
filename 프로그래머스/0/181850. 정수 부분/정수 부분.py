@@ -1,0 +1,1 @@
+solution = lambda flo: flo // 1
