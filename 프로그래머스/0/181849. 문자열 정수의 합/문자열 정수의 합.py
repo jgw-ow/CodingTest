@@ -1,0 +1,1 @@
+solution = lambda num_str:sum(int(i) for i in num_str)  
