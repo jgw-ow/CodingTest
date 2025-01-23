@@ -1,2 +1,1 @@
-def solution(s):
-    return str.isdigit(s) and len(s) in [4, 6]
+solution = lambda s: str.isdigit(s) and len(s) in [4, 6]
