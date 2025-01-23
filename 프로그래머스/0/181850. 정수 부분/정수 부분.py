@@ -1,1 +1,1 @@
-solution = lambda flo: flo // 1
+solution = lambda flo: int(flo)
