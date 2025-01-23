@@ -1,8 +1,2 @@
 def solution(s):
-    if len(s) == 4 or len(s) == 6:
-        if str.isdigit(s) == True:
-            return True
-        else:
-            return False
-    else:
-        return False
+    return str.isdigit(s) and len(s) in [4, 6]
