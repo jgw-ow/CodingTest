@@ -1,2 +1,1 @@
-def solution(num_list):
-    return sorted(num_list)[5:]
+solution = lambda num_list: sorted(num_list)[5:]
