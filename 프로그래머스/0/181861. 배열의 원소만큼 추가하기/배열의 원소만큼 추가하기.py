@@ -1,6 +1,1 @@
-def solution(arr):
-    X = []
-    for i in arr:
-        for j in range(0, i):
-            X.append(i)
-    return X
+solution = lambda arr: [i for i in arr for j in range(i)]
