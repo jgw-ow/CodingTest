@@ -1,1 +1,1 @@
-solution = lambda strArr: [strArr[i] for i in range(len(strArr)) if 'ad' not in strArr[i]]
+solution = lambda strArr: [i for i in strArr if 'ad' not in i]
