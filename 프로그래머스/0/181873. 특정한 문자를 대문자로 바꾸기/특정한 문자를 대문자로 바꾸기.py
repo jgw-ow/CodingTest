@@ -1,0 +1,1 @@
+solution = lambda my_string, alp: my_string.replace(alp, alp.upper())
